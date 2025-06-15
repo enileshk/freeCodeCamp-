@@ -1,7 +1,7 @@
 import pandas as pd
 
 def calculate_demographic_data(print_data=True):
-    path = r"adult.data.csv.txt"
+    path = r"adult.data.csv"
     # Read data from file
     df = pd.read_csv(path)
 
